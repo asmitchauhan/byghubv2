@@ -1,0 +1,96 @@
+.s1 {
+    height: 400px;
+    width: 80%;
+    margin: 20px 10%;
+    cursor: pointer;
+}
+
+.img-div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img-div img {
+    height: 100%;
+    width: 100%;
+    object-position: top;
+    pointer-events: none;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.s1:hover img {
+    transform: scale(1.1);
+}
+.s1 .img-content{
+    height: 100px;
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+    top: -150px;
+}
+#s1a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.img-info{
+    display: flex;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.type{
+    margin-right: 20px;
+}
+.year{
+    margin-right: 20px;
+}
+.type i{
+    margin-right: 10px;
+    color: #3182ed;
+}
+.year i{
+    margin-right: 10px;
+    color: #3182ed;
+}
+.duration i{
+    margin-right: 10px;
+    color: #3182ed;
+}
+.img-text {
+    margin-top: 30px;
+}
+.img-text h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+
+@media only screen and (max-width: 1046px){
+    .img-text h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 940px){
+    .img-text h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .s1 .img-content{
+        height: 100px;
+        width: 100%;
+        margin: 160px 0;
+    }
+    .img-text h1{
+        color: #fff;
+        font-size: 26px;
+        font-family: sans-serif;
+    }
+    span{
+        font-size: 14px;
+    }
+}

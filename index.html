@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+    <title>BygHub</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/first-image.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div id="logo-div">
+            <a id="a1" href="#">Byg</a><a id="a2" href="#">Hub</a>
+        </div>
+        <div id="search-div">
+            <button id="search-btn2" onclick="showSearch()">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
+            <button id="cross-btn" onclick="hide()">
+                <i class="fa-solid fa-xmark fa-lg"></i>
+            </button>
+            <button id="search-btn1">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
+            <input type="text" name="search" placeholder="I'm looking for..." id="search-input">
+        </div>
+    </nav>
+    <a id="s1a" href="javascript:setTimeout(()=>{window.location = 'john-wick.html' },2000);">
+        <section class="s1">
+            <div class="img-div">
+                <img src="img/John-Wick-3.jpg">
+            </div>
+            <div class="img-content">
+                <div class="img-info">
+                    <div class="type"><i class="fa-solid fa-film"></i><span>Action/Thriller</span></div>
+                    <div class="year"><i class="fa-solid fa-calendar-days"></i></i><span>2019</span></div>
+                    <div class="duration"><i class="fa-solid fa-clock"></i><span>2h 11m</span></div>
+                </div>
+                <div class="img-text">
+                    <h1>John Wick: Chapter 3 - Parabellum</h1>
+                </div>
+            </div>
+        </section>
+    </a>
+    <div id="holly" class="type-head">
+        <span  class="m-type">Hollywood</span>
+    </div>
+
+    <div class="movies-grid">
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'venom.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/venom.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Venom</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2018</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'captainmarvel.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/captain-marvel.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Captain Marvel</h3>
+                    <div class="movie-info">
+                        <span>Action/Sci-fi</span>
+                        <span class="sp2">2019</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'casinoRoyale.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/casino-royale.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Casino Royale</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2006</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '1917.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/1917.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>1917</h3>
+                    <div class="movie-info">
+                        <span>War/Drama</span>
+                        <span class="sp2">2019</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'darkKnight.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/dark-knight.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>The Dark Knight</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2008</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'dune.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/dune.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Dune</h3>
+                    <div class="movie-info">
+                        <span>Sci-Fi/Adventure</span>
+                        <span class="sp2">2021</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'endgame.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/endgame.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Avengers: Endgame</h3>
+                    <div class="movie-info">
+                        <span>Action/Sci-Fi</span>
+                        <span class="sp2">2019</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'eternals.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/eternals.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Eternals</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2021</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'gladiator.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/gladiator.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Gladiator</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2000</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'intersteller.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/interstaller.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Interstaller</h3>
+                    <div class="movie-info">
+                        <span>Sci-Fi/Adventure</span>
+                        <span class="sp2">2014</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'matrix.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/matrix.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>The Matrix</h3>
+                    <div class="movie-info">
+                        <span>Sci-Fi/Action</span>
+                        <span class="sp2">1999</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'shangchi.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/shang-chi.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Shang-Chi</h3>
+                    <div class="movie-info">
+                        <span>Action/Fantasy</span>
+                        <span class="sp2">2021</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="grid2" class="movies-grid grid2 hidden">
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/blackPanthar.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Black Panther: Wakanda Forever</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2022 </span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/bulletTrain.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Bullet Train</h3>
+                    <div class="movie-info">
+                        <span>Action/Thriller</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/JurassicWorld.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Jurassic World Dominion</h3>
+                    <div class="movie-info">
+                        <span>Action/Sci-fi</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/thor.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Thor: Love and Thunder</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/spidermanNwh.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Spider-Man: No Way Home</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2021</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/drSrtange2.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Doctor Strange in the Multiverse of Madness</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventur</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/spidermanFfh.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Spider-Man: Far From Home</h3>
+                    <div class="movie-info">
+                        <span>Action/Sci-Fi</span>
+                        <span class="sp2">2019</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/deadpool2.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Deadpool 2</h3>
+                    <div class="movie-info">
+                        <span>Action/Fantasy</span>
+                        <span class="sp2">2018</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/gog.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Guardians of the Galaxy</h3>
+                    <div class="movie-info">
+                        <span>Action/Sci-fi</span>
+                        <span class="sp2">2014</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/avengers1.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>The Avengers</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2012</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/ironman1.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Iron Man</h3>
+                    <div class="movie-info">
+                        <span>Sci-Fi/Action</span>
+                        <span class="sp2">2008</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/aquaman.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Aquaman</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2018</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    
+    <div class="show-btn">
+        <button id="show" class="show" onclick="show()">Show More</button>
+    </div>
+
+
+
+
+    <div class="type-head">
+        <span class="m-type">Hindi</span>
+    </div>
+    <div class="movies-grid">
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/shamshera.webp">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Shamshera</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/rrr.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>RRR</h3>
+                    <div class="movie-info">
+                        <span>Action/Drama</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/brahmastra.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Brahmāstra: Part One - Shiva</h3>
+                    <div class="movie-info">
+                        <span>Fantasy/Adventure</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/heropanti2.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Heropanti 2</h3>
+                    <div class="movie-info">
+                        <span>Action/Romance</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/prithviraj.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Samrat Prithviraj</h3>
+                    <div class="movie-info">
+                        <span>Action/Drama</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/laalSingh.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Laal Singh Chaddha</h3>
+                    <div class="movie-info">
+                        <span>Romance/Drama</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/bhulbhulaiyaa2.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Bhool Bhulaiyaa 2</h3>
+                    <div class="movie-info">
+                        <span>Comedy horror</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/kgf2.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>K.G.F: Chapter 2</h3>
+                    <div class="movie-info">
+                        <span>Action/Drama</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/pushpa.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Pushpa: The Rise</h3>
+                    <div class="movie-info">
+                        <span>Action/Drama</span>
+                        <span class="sp2">2021</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/bahubali2.webp">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Baahubali 2: The Conclusion</h3>
+                    <div class="movie-info">
+                        <span>Action/Drama</span>
+                        <span class="sp2">2018</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/robot2.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Robot 2.0</h3>
+                    <div class="movie-info">
+                        <span>Sci-Fi/Action</span>
+                        <span class="sp2">2018</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/beast.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Beast</h3>
+                    <div class="movie-info">
+                        <span>Action/Crime</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div id="grid3" class="movies-grid grid2 hidden">
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/khudahafiz.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Khuda Haafiz: Chapter 2 - Agni Pariksha</h3>
+                    <div class="movie-info">
+                        <span>Action/Thriller </span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/ekvillan.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Ek Villain Returns</h3>
+                    <div class="movie-info">
+                        <span>Mystery/Thriller</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/kashmirFiles.jpeg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>The Kashmir Files</h3>
+                    <div class="movie-info">
+                        <span>Drama/Historical</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/rocketary.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Rocketry: The Nambi Effect</h3>
+                    <div class="movie-info">
+                        <span>Drama/Action</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/sardarUddham.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Sardar Udham</h3>
+                    <div class="movie-info">
+                        <span>Historical drama/Crime</span>
+                        <span class="sp2">2021</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/tadap.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Tadap</h3>
+                    <div class="movie-info">
+                        <span>Romance/Action</span>
+                        <span class="sp2">2021</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/anek.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Anek</h3>
+                    <div class="movie-info">
+                        <span>Action/Thriller</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/attack.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Attack: Part 1</h3>
+                    <div class="movie-info">
+                        <span>Action/Sci-fi</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/gangubai.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Gangubai Kathiawadi</h3>
+                    <div class="movie-info">
+                        <span> Drama/Crime</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/major.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Major</h3>
+                    <div class="movie-info">
+                        <span>Action/Drama</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/vikrant.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Vikrant Rona</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2022</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = '#' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/krish.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Krrish 3</h3>
+                    <div class="movie-info">
+                        <span>Sci-fi/Action</span>
+                        <span class="sp2">2013</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    
+    <div class="show-btn btnn2">
+        <button id="show2" class="show2" onclick="show2()">Show More</button>
+    </div>
+    <footer>
+        <div class="heading"><a id="a1" href="#">Byg</a><a id="a2" href="#">Hub</a></div>
+        <div class="text">An integrated environment to download your interest.</div>
+        <div class="div-ul">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="#"><img src="icons/facebook.svg"></a></li>
+                <li><a href="#"><img src="icons/instagram.svg"></a></li>
+                <li><a href="#"><img src="icons/youtube.svg"></a></li>
+                <li><a href="#"><img src="icons/twitter.svg"></a></li>
+                
+            </ul>
+        </div>
+        <div class="validation">
+            <span>© 2022 BygHub | All Rights Reserved</span>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
